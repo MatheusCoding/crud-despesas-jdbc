@@ -1,0 +1,13 @@
+//CRIADO E COMENTADO POR MATHEUS DE OLIVEIRA MEDEIROS
+package org.example.model;
+
+    // ENUMERAÇÕES DE CATEGORIAS
+
+public enum Categoria {
+    ALIMENTACAO,
+    EDUCACAO,
+    SAUDE,
+    TRANSPORTE,
+    MORADIA,
+    OUTROS
+}
