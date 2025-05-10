@@ -23,3 +23,18 @@ Sistema completo para gerenciamento de despesas pessoais implementando operaçõ
 - **Maven** para gerenciamento de dependências
 
 ## 🗂️ Estrutura do Projeto
+crud-despesas-jdbc/
+├── src/
+│ ├── main/java/org/example/
+│ │ ├── dao/
+│ │ │ ├── DespesaDAO.java
+│ │ │ └── IDespesaDAO.java
+│ │ ├── infra/
+│ │ │ └── ConnectionFactory.java
+│ │ ├── model/
+│ │ │ ├── Categoria.java
+│ │ │ └── Despesa.java
+│ │ ├── AtualizarDespesas.java
+│ │ ├── ListarDespesas.java
+│ │ └── RemoverDespesa.java
+├── pom.xml
